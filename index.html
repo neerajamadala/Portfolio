@@ -1,0 +1,1085 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="dark">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Madala Neeraja - Computer Science Engineer, Machine Learning Enthusiast & Software Developer Portfolio.">
+  <meta name="keywords" content="Madala Neeraja, Portfolio, Computer Science, Machine Learning, Python, Web Development, TCS CodeVita">
+  <meta name="author" content="Madala Neeraja">
+  <title>Madala Neeraja | Portfolio</title>
+  
+  <!-- Google Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;500;600;700;800&family=Plus+Jakarta+Sans:wght@300;400;500;600;700&family=Fira+Code:wght@400;500&display=swap" rel="stylesheet">
+  
+  <!-- Font Awesome Icons -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+  
+  <!-- Main Stylesheet -->
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <!-- Background Animated Gradient Orbs -->
+  <div class="bg-glow-container">
+    <div class="glow-orb orb-1"></div>
+    <div class="glow-orb orb-2"></div>
+    <div class="glow-orb orb-3"></div>
+  </div>
+
+  <!-- Navigation Bar -->
+  <header class="navbar" id="navbar">
+    <div class="nav-container">
+      <a href="#hero" class="nav-logo">
+        <span class="logo-box">MN</span>
+        <span class="logo-text">Madala <span class="accent-text">Neeraja</span></span>
+      </a>
+
+      <!-- Desktop Nav -->
+      <nav class="nav-links" id="nav-links">
+        <a href="#about" class="nav-link">About</a>
+        <a href="#skills" class="nav-link">Skills</a>
+        <a href="#experience" class="nav-link">Experience</a>
+        <a href="#projects" class="nav-link">Projects</a>
+        <a href="#certifications" class="nav-link">Certifications</a>
+        <a href="#education" class="nav-link">Education</a>
+        <a href="#contact" class="nav-link">Contact</a>
+      </nav>
+
+      <!-- Nav Actions -->
+      <div class="nav-actions">
+        <button id="theme-toggle" class="icon-btn" aria-label="Toggle Theme" title="Toggle Theme">
+          <i class="fa-solid fa-moon theme-icon"></i>
+        </button>
+        <a href="neeraja_resume (5).pdf" target="_blank" class="btn btn-outline btn-sm nav-resume-btn">
+          <i class="fa-solid fa-file-arrow-down"></i>
+          <span>Resume</span>
+        </a>
+        <button id="mobile-menu-btn" class="icon-btn mobile-toggle" aria-label="Open Navigation Menu">
+          <i class="fa-solid fa-bars"></i>
+        </button>
+      </div>
+    </div>
+  </header>
+
+  <!-- Main Content Wrapper -->
+  <main>
+    
+    <!-- Hero Section -->
+    <section class="hero-section" id="hero">
+      <div class="container hero-container">
+        <div class="hero-content">
+          <div class="badge-status">
+            <span class="pulse-dot"></span>
+            <span>Available for Opportunities & Software Roles</span>
+          </div>
+          
+          <h1 class="hero-title">
+            Hi, I'm <span class="gradient-text">Madala Neeraja</span>
+          </h1>
+          
+          <h2 class="hero-subtitle">
+            I am a <span id="typing-text" class="typing-highlight"></span><span class="cursor">|</span>
+          </h2>
+          
+          <p class="hero-description">
+            Computer Science and Engineering undergraduate passionate about building intelligent machine learning models, modern web applications, and scalable software solutions. Skilled in Python, Java, Data Structures, and Cloud workflows.
+          </p>
+
+          <div class="hero-cta">
+            <a href="#projects" class="btn btn-primary">
+              <i class="fa-solid fa-diagram-project"></i>
+              <span>View Projects</span>
+            </a>
+            <a href="#contact" class="btn btn-secondary">
+              <i class="fa-solid fa-paper-plane"></i>
+              <span>Contact Me</span>
+            </a>
+            <a href="neeraja_resume (5).pdf" download="Madala_Neeraja_Resume.pdf" class="btn btn-outline">
+              <i class="fa-solid fa-download"></i>
+              <span>Download CV</span>
+            </a>
+          </div>
+
+          <!-- Social Quick Links -->
+          <div class="hero-socials">
+            <a href="mailto:madala.neeraja3@gmail.com" class="social-link" title="Email Neeraja">
+              <i class="fa-solid fa-envelope"></i>
+            </a>
+            <a href="tel:+919381391624" class="social-link" title="Call Neeraja">
+              <i class="fa-solid fa-phone"></i>
+            </a>
+            <a href="https://linkedin.com" target="_blank" rel="noopener noreferrer" class="social-link" title="LinkedIn Profile">
+              <i class="fa-brands fa-linkedin-in"></i>
+            </a>
+            <a href="https://github.com" target="_blank" rel="noopener noreferrer" class="social-link" title="GitHub Profile">
+              <i class="fa-brands fa-github"></i>
+            </a>
+          </div>
+        </div>
+
+        <!-- Hero Card / Interactive Widget -->
+        <div class="hero-visual">
+          <div class="floating-profile-card glass-panel">
+            <div class="terminal-header">
+              <div class="terminal-buttons">
+                <span class="btn-circle red"></span>
+                <span class="btn-circle yellow"></span>
+                <span class="btn-circle green"></span>
+              </div>
+              <span class="terminal-title">developer_profile.py</span>
+            </div>
+            
+            <div class="code-preview">
+              <pre><code><span class="code-keyword">class</span> <span class="code-class">SoftwareEngineer</span>:
+    <span class="code-keyword">def</span> <span class="code-func">__init__</span>(self):
+        self.name = <span class="code-string">"Madala Neeraja"</span>
+        self.degree = <span class="code-string">"B.Tech CSE"</span>
+        self.institution = <span class="code-string">"Vignan University"</span>
+        self.cgpa = <span class="code-number">7.5</span>
+        self.codevita_rank = <span class="code-number">749</span> <span class="code-comment"># Global Rank</span>
+        self.core_focus = [
+            <span class="code-string">"Machine Learning"</span>,
+            <span class="code-string">"Full Stack Web"</span>,
+            <span class="code-string">"Data Structures"</span>,
+            <span class="code-string">"Cloud & AI"</span>
+        ]
+
+    <span class="code-keyword">def</span> <span class="code-func">get_status</span>(self):
+        <span class="code-keyword">return</span> <span class="code-string">"Ready to innovate & contribute 🚀"</span></code></pre>
+            </div>
+
+            <!-- Mini Highlight Badges Floating -->
+            <div class="floating-badge badge-top">
+              <i class="fa-solid fa-trophy"></i>
+              <div>
+                <strong>TCS CodeVita</strong>
+                <span>Global Rank 749</span>
+              </div>
+            </div>
+
+            <div class="floating-badge badge-bottom">
+              <i class="fa-solid fa-certificate"></i>
+              <div>
+                <strong>Oracle & Azure AI</strong>
+                <span>Certified Associate</span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- Quick Metrics Counter Strip -->
+      <div class="container stats-strip-container">
+        <div class="stats-strip glass-panel">
+          <div class="stat-item">
+            <div class="stat-icon"><i class="fa-solid fa-award"></i></div>
+            <div class="stat-data">
+              <h3 class="stat-number"><span class="counter" data-target="749">0</span></h3>
+              <p class="stat-label">TCS CodeVita Global Rank</p>
+            </div>
+          </div>
+          <div class="stat-divider"></div>
+          <div class="stat-item">
+            <div class="stat-icon"><i class="fa-solid fa-laptop-code"></i></div>
+            <div class="stat-data">
+              <h3 class="stat-number"><span class="counter" data-target="5">0</span>+</h3>
+              <p class="stat-label">ML & Web Projects</p>
+            </div>
+          </div>
+          <div class="stat-divider"></div>
+          <div class="stat-item">
+            <div class="stat-icon"><i class="fa-solid fa-cloud"></i></div>
+            <div class="stat-data">
+              <h3 class="stat-number"><span class="counter" data-target="3">0</span>+</h3>
+              <p class="stat-label">Internships & Programs</p>
+            </div>
+          </div>
+          <div class="stat-divider"></div>
+          <div class="stat-item">
+            <div class="stat-icon"><i class="fa-solid fa-graduation-cap"></i></div>
+            <div class="stat-data">
+              <h3 class="stat-number">7.5</h3>
+              <p class="stat-label">B.Tech CSE CGPA</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- About Section -->
+    <section class="section" id="about">
+      <div class="container">
+        <div class="section-header">
+          <span class="section-tag"><i class="fa-solid fa-user"></i> About Me</span>
+          <h2 class="section-title">Passionate About Technology & Problem Solving</h2>
+          <p class="section-subtitle">A snapshot of my engineering journey, academic background, and professional vision.</p>
+        </div>
+
+        <div class="about-grid">
+          <div class="about-text-card glass-panel">
+            <div class="about-badge">
+              <i class="fa-solid fa-compass-drafting"></i>
+              <span>Engineering Philosophy</span>
+            </div>
+            <h3>Transforming Ideas into Intelligent, Efficient Software</h3>
+            <p>
+              I am currently pursuing my <strong>Bachelor of Technology in Computer Science and Engineering</strong> at <em>Vignan's Foundation for Science, Technology and Research</em>. My technical journey is anchored in strong fundamentals of <strong>Data Structures, Algorithms, Object-Oriented Programming, and Database Systems</strong>.
+            </p>
+            <p>
+              With hands-on experience in building predictive Machine Learning models (Traffic Analysis, Cancer Detection, Fraud Prevention) and responsive frontend applications, I thrive at the intersection of data-driven intelligence and intuitive user interfaces.
+            </p>
+            <p>
+              Having secured a <strong>Global Rank of 749 in TCS CodeVita Season 12</strong>, I consistently apply structured problem-solving to debug complex challenges, optimize algorithms, and deliver high-quality code.
+            </p>
+
+            <div class="info-chips">
+              <div class="info-chip">
+                <i class="fa-solid fa-location-dot"></i>
+                <span>Andhra Pradesh, India</span>
+              </div>
+              <div class="info-chip">
+                <i class="fa-solid fa-envelope"></i>
+                <a href="mailto:madala.neeraja3@gmail.com">madala.neeraja3@gmail.com</a>
+              </div>
+              <div class="info-chip">
+                <i class="fa-solid fa-phone"></i>
+                <a href="tel:+919381391624">+91 9381391624</a>
+              </div>
+            </div>
+          </div>
+
+          <!-- Feature Cards Grid -->
+          <div class="about-features-grid">
+            <div class="feature-card glass-panel">
+              <div class="feature-icon"><i class="fa-solid fa-brain"></i></div>
+              <h4>Machine Learning & NLP</h4>
+              <p>Developing predictive algorithms, text classification pipelines, feature engineering, and neural network models using Python.</p>
+            </div>
+
+            <div class="feature-card glass-panel">
+              <div class="feature-icon"><i class="fa-solid fa-code"></i></div>
+              <h4>Core Engineering & DSA</h4>
+              <p>Strong problem-solving capability in Python, Core Java, and C with solid grasp of algorithms and system design concepts.</p>
+            </div>
+
+            <div class="feature-card glass-panel">
+              <div class="feature-icon"><i class="fa-solid fa-cloud-bolt"></i></div>
+              <h4>Cloud & Workflows</h4>
+              <p>Trained in Microsoft Azure AI services, cloud deployment fundamentals, ServiceNow platform automation, and Agentic AI concepts.</p>
+            </div>
+
+            <div class="feature-card glass-panel">
+              <div class="feature-icon"><i class="fa-solid fa-users-gear"></i></div>
+              <h4>Leadership & Teamwork</h4>
+              <p>Served as Coordinator for the prestigious <em>Vignan Mahotsav</em> cultural festival, demonstrating teamwork and project management.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Skills Section -->
+    <section class="section bg-alt" id="skills">
+      <div class="container">
+        <div class="section-header">
+          <span class="section-tag"><i class="fa-solid fa-microchip"></i> Skills & Expertise</span>
+          <h2 class="section-title">Technical Toolset & Core Competencies</h2>
+          <p class="section-subtitle">Technologies and methodologies I work with across software development and AI engineering.</p>
+        </div>
+
+        <div class="skills-wrapper">
+          <!-- Programming Languages -->
+          <div class="skill-category-card glass-panel">
+            <div class="category-header">
+              <div class="cat-icon"><i class="fa-solid fa-code"></i></div>
+              <div>
+                <h3>Programming Languages</h3>
+                <span>Core languages for algorithms and development</span>
+              </div>
+            </div>
+            <div class="skill-items-grid">
+              <div class="skill-pill">
+                <i class="fa-brands fa-python skill-icon-python"></i>
+                <div class="skill-pill-info">
+                  <strong>Python</strong>
+                  <span class="skill-level">Advanced / Primary</span>
+                </div>
+              </div>
+              <div class="skill-pill">
+                <i class="fa-brands fa-java skill-icon-java"></i>
+                <div class="skill-pill-info">
+                  <strong>Core Java</strong>
+                  <span class="skill-level">OOP & Applications</span>
+                </div>
+              </div>
+              <div class="skill-pill">
+                <i class="fa-solid fa-c skill-icon-c"></i>
+                <div class="skill-pill-info">
+                  <strong>C Language</strong>
+                  <span class="skill-level">Core Fundamentals</span>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <!-- Web Development -->
+          <div class="skill-category-card glass-panel">
+            <div class="category-header">
+              <div class="cat-icon"><i class="fa-solid fa-globe"></i></div>
+              <div>
+                <h3>Web Technologies</h3>
+                <span>Frontend interface design & styling</span>
+              </div>
+            </div>
+            <div class="skill-items-grid">
+              <div class="skill-pill">
+                <i class="fa-brands fa-html5 skill-icon-html"></i>
+                <div class="skill-pill-info">
+                  <strong>HTML5</strong>
+                  <span class="skill-level">Semantic Markup</span>
+                </div>
+              </div>
+              <div class="skill-pill">
+                <i class="fa-brands fa-css3-alt skill-icon-css"></i>
+                <div class="skill-pill-info">
+                  <strong>CSS3</strong>
+                  <span class="skill-level">Responsive & Modern UI</span>
+                </div>
+              </div>
+              <div class="skill-pill">
+                <i class="fa-brands fa-js skill-icon-js"></i>
+                <div class="skill-pill-info">
+                  <strong>JavaScript (ES6+)</strong>
+                  <span class="skill-level">Interactive Web Apps</span>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <!-- AI / ML & Cloud -->
+          <div class="skill-category-card glass-panel">
+            <div class="category-header">
+              <div class="cat-icon"><i class="fa-solid fa-robot"></i></div>
+              <div>
+                <h3>Machine Learning & Cloud</h3>
+                <span>Data modeling, NLP, and cloud ecosystems</span>
+              </div>
+            </div>
+            <div class="skill-items-grid">
+              <div class="skill-pill">
+                <i class="fa-solid fa-brain skill-icon-ai"></i>
+                <div class="skill-pill-info">
+                  <strong>Machine Learning</strong>
+                  <span class="skill-level">Scikit-learn, Regression, Classifiers</span>
+                </div>
+              </div>
+              <div class="skill-pill">
+                <i class="fa-solid fa-network-wired skill-icon-dl"></i>
+                <div class="skill-pill-info">
+                  <strong>Deep Learning</strong>
+                  <span class="skill-level">Neural Models & Feature Eng.</span>
+                </div>
+              </div>
+              <div class="skill-pill">
+                <i class="fa-solid fa-font skill-icon-nlp"></i>
+                <div class="skill-pill-info">
+                  <strong>NLP</strong>
+                  <span class="skill-level">Text Preprocessing & Tokenization</span>
+                </div>
+              </div>
+              <div class="skill-pill">
+                <i class="fa-brands fa-microsoft skill-icon-azure"></i>
+                <div class="skill-pill-info">
+                  <strong>Microsoft Azure AI</strong>
+                  <span class="skill-level">Cloud AI & Deployment</span>
+                </div>
+              </div>
+              <div class="skill-pill">
+                <i class="fa-solid fa-gear skill-icon-sn"></i>
+                <div class="skill-pill-info">
+                  <strong>ServiceNow</strong>
+                  <span class="skill-level">Flows, ATF, Agentic AI</span>
+                </div>
+              </div>
+              <div class="skill-pill">
+                <i class="fa-solid fa-cloud skill-icon-oracle"></i>
+                <div class="skill-pill-info">
+                  <strong>Oracle OCI</strong>
+                  <span class="skill-level">OCI AI Foundations</span>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <!-- Databases & Core CS Concepts -->
+          <div class="skill-category-card glass-panel">
+            <div class="category-header">
+              <div class="cat-icon"><i class="fa-solid fa-database"></i></div>
+              <div>
+                <h3>Database & Core CS Concepts</h3>
+                <span>Architectural and fundamental computer science topics</span>
+              </div>
+            </div>
+            <div class="skill-items-grid">
+              <div class="skill-pill">
+                <i class="fa-solid fa-server skill-icon-mysql"></i>
+                <div class="skill-pill-info">
+                  <strong>MySQL</strong>
+                  <span class="skill-level">Queries & Relational Schema</span>
+                </div>
+              </div>
+              <div class="skill-pill">
+                <i class="fa-solid fa-cubes skill-icon-dsa"></i>
+                <div class="skill-pill-info">
+                  <strong>Data Structures</strong>
+                  <span class="skill-level">Trees, Graphs, Arrays, Stacks</span>
+                </div>
+              </div>
+              <div class="skill-pill">
+                <i class="fa-solid fa-object-group skill-icon-oops"></i>
+                <div class="skill-pill-info">
+                  <strong>OOP Principles</strong>
+                  <span class="skill-level">Inheritance, Polymorphism, Abstraction</span>
+                </div>
+              </div>
+              <div class="skill-pill">
+                <i class="fa-solid fa-diagram-project skill-icon-se"></i>
+                <div class="skill-pill-info">
+                  <strong>Software Engineering</strong>
+                  <span class="skill-level">SDLC, Testing, Agile Methodologies</span>
+                </div>
+              </div>
+              <div class="skill-pill">
+                <i class="fa-solid fa-table skill-icon-dbms"></i>
+                <div class="skill-pill-info">
+                  <strong>DBMS</strong>
+                  <span class="skill-level">Normalization, Indexing & ACID</span>
+                </div>
+              </div>
+              <div class="skill-pill">
+                <i class="fa-solid fa-shield-halved skill-icon-sec"></i>
+                <div class="skill-pill-info">
+                  <strong>Cyber Security Basics</strong>
+                  <span class="skill-level">Cisco Academy Certified</span>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Experience & Internships Section -->
+    <section class="section" id="experience">
+      <div class="container">
+        <div class="section-header">
+          <span class="section-tag"><i class="fa-solid fa-briefcase"></i> Experience</span>
+          <h2 class="section-title">Internships & Industrial Programs</h2>
+          <p class="section-subtitle">Hands-on practical experience in cloud engineering, workflow automation, and machine learning.</p>
+        </div>
+
+        <div class="timeline">
+          <!-- Timeline Item 1 -->
+          <div class="timeline-item">
+            <div class="timeline-dot"><i class="fa-solid fa-gear"></i></div>
+            <div class="timeline-content glass-panel">
+              <div class="timeline-top">
+                <div class="role-company">
+                  <h3 class="role-title">ServiceNow Virtual Intern</h3>
+                  <span class="company-name">ServiceNow University & SmartBridge (AICTE)</span>
+                </div>
+                <div class="timeline-meta">
+                  <span class="timeline-badge date-badge"><i class="fa-regular fa-calendar"></i> October 2025</span>
+                  <span class="timeline-badge type-badge">Virtual Internship</span>
+                </div>
+              </div>
+              <ul class="timeline-bullets">
+                <li>Completed extensive hands-on training in ServiceNow platform fundamentals and system administration.</li>
+                <li>Explored <strong>workflow automation</strong> and received early exposure to modern <strong>Agentic AI</strong> concepts.</li>
+                <li>Built automated workflows using <strong>Flow Designer</strong> and validated tests via the <strong>Automated Test Framework (ATF)</strong>.</li>
+                <li>Constructed custom management dashboards using ServiceNow native reporting tools; prepared for Certified System Administrator (CSA) certification.</li>
+              </ul>
+              <div class="tech-tags">
+                <span class="tag">ServiceNow</span>
+                <span class="tag">Flow Designer</span>
+                <span class="tag">ATF</span>
+                <span class="tag">Agentic AI</span>
+                <span class="tag">System Administration</span>
+              </div>
+            </div>
+          </div>
+
+          <!-- Timeline Item 2 -->
+          <div class="timeline-item">
+            <div class="timeline-dot"><i class="fa-brands fa-microsoft"></i></div>
+            <div class="timeline-content glass-panel">
+              <div class="timeline-top">
+                <div class="role-company">
+                  <h3 class="role-title">Microsoft Azure Virtual Intern</h3>
+                  <span class="company-name">Microsoft Future Ready Talent Program</span>
+                </div>
+                <div class="timeline-meta">
+                  <span class="timeline-badge date-badge"><i class="fa-regular fa-calendar"></i> 3 Months Program</span>
+                  <span class="timeline-badge type-badge">Virtual Internship</span>
+                </div>
+              </div>
+              <ul class="timeline-bullets">
+                <li>Engineered and submitted an end-to-end <strong>SMS Spam Detection</strong> project leveraging machine learning classification models.</li>
+                <li>Implemented comprehensive Natural Language Processing (NLP) pipelines: text cleaning, tokenization, stopword removal, and feature vectorization.</li>
+                <li>Gained practical industry exposure to <strong>Microsoft Azure Cloud Services</strong>, virtual resource provisioning, and deployment workflows.</li>
+              </ul>
+              <div class="tech-tags">
+                <span class="tag">Microsoft Azure</span>
+                <span class="tag">Python</span>
+                <span class="tag">NLP</span>
+                <span class="tag">Machine Learning</span>
+                <span class="tag">Cloud Deployment</span>
+              </div>
+            </div>
+          </div>
+
+          <!-- Timeline Item 3 -->
+          <div class="timeline-item">
+            <div class="timeline-dot"><i class="fa-solid fa-cloud-arrow-up"></i></div>
+            <div class="timeline-content glass-panel">
+              <div class="timeline-top">
+                <div class="role-company">
+                  <h3 class="role-title">AI Azure Virtual Intern</h3>
+                  <span class="company-name">Microsoft — Edunet Foundation (AICTE)</span>
+                </div>
+                <div class="timeline-meta">
+                  <span class="timeline-badge date-badge"><i class="fa-regular fa-calendar"></i> May – Jun 2025</span>
+                  <span class="timeline-badge type-badge">AICTE Internship</span>
+                </div>
+              </div>
+              <ul class="timeline-bullets">
+                <li>Completed a rigorous 4-week specialized internship focused on <strong>Azure Artificial Intelligence and Cloud Fundamentals</strong>.</li>
+                <li>Studied Azure AI cognitive services, model deployment foundations, and automated cloud project management pipelines.</li>
+              </ul>
+              <div class="tech-tags">
+                <span class="tag">Azure AI</span>
+                <span class="tag">Cognitive Services</span>
+                <span class="tag">Cloud Fundamentals</span>
+                <span class="tag">Edunet / AICTE</span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Projects Section -->
+    <section class="section bg-alt" id="projects">
+      <div class="container">
+        <div class="section-header">
+          <span class="section-tag"><i class="fa-solid fa-diagram-project"></i> Featured Work</span>
+          <h2 class="section-title">Academic & Technical Projects</h2>
+          <p class="section-subtitle">Interactive showcase of machine learning models, predictive systems, and frontend web solutions.</p>
+        </div>
+
+        <!-- Project Filter Buttons -->
+        <div class="project-filters">
+          <button class="filter-btn active" data-filter="all">All Projects (<span id="count-all">5</span>)</button>
+          <button class="filter-btn" data-filter="ml">Machine Learning & AI (4)</button>
+          <button class="filter-btn" data-filter="web">Web Development (1)</button>
+        </div>
+
+        <!-- Projects Grid -->
+        <div class="projects-grid" id="projects-grid">
+          
+          <!-- Project 1: Traffic Congestion -->
+          <div class="project-card glass-panel" data-category="ml">
+            <div class="project-card-banner">
+              <div class="project-icon-box">
+                <i class="fa-solid fa-car-side"></i>
+              </div>
+              <span class="project-category-badge">ML & Deep Learning</span>
+            </div>
+            <div class="project-body">
+              <h3 class="project-title">Traffic Congestion Prediction & Analysis</h3>
+              <p class="project-summary">
+                Developed an intelligent machine learning model utilizing real-world traffic data to forecast urban congestion severity and determine key contributing bottleneck factors.
+              </p>
+              <div class="project-highlights">
+                <div class="highlight-item"><i class="fa-solid fa-check"></i> Deep Learning & feature engineering</div>
+                <div class="highlight-item"><i class="fa-solid fa-check"></i> Severity classification & trend analysis</div>
+              </div>
+              <div class="project-tech-stack">
+                <span>Python</span>
+                <span>Machine Learning</span>
+                <span>Deep Learning</span>
+                <span>Data Analysis</span>
+              </div>
+            </div>
+            <div class="project-footer">
+              <button class="btn btn-outline btn-sm open-modal-btn" data-project="traffic">
+                <i class="fa-solid fa-circle-info"></i> Project Details
+              </button>
+            </div>
+          </div>
+
+          <!-- Project 2: SMS Fraud Detection -->
+          <div class="project-card glass-panel" data-category="ml">
+            <div class="project-card-banner">
+              <div class="project-icon-box">
+                <i class="fa-solid fa-shield-virus"></i>
+              </div>
+              <span class="project-category-badge">NLP & Security</span>
+            </div>
+            <div class="project-body">
+              <h3 class="project-title">SMS Fraud & Spam Detection System</h3>
+              <p class="project-summary">
+                Engineered a high-precision SMS spam and scam identification system using natural language processing pipelines and supervised classification algorithms.
+              </p>
+              <div class="project-highlights">
+                <div class="highlight-item"><i class="fa-solid fa-check"></i> Text preprocessing & TF-IDF feature extraction</div>
+                <div class="highlight-item"><i class="fa-solid fa-check"></i> High accuracy spam pattern detection</div>
+              </div>
+              <div class="project-tech-stack">
+                <span>Python</span>
+                <span>NLP</span>
+                <span>Scikit-Learn</span>
+                <span>Classification</span>
+              </div>
+            </div>
+            <div class="project-footer">
+              <button class="btn btn-outline btn-sm open-modal-btn" data-project="fraud">
+                <i class="fa-solid fa-circle-info"></i> Project Details
+              </button>
+            </div>
+          </div>
+
+          <!-- Project 3: Cancer Detection -->
+          <div class="project-card glass-panel" data-category="ml">
+            <div class="project-card-banner">
+              <div class="project-icon-box">
+                <i class="fa-solid fa-dna"></i>
+              </div>
+              <span class="project-category-badge">Healthcare AI</span>
+            </div>
+            <div class="project-body">
+              <h3 class="project-title">Cancer Detection Using Machine Learning</h3>
+              <p class="project-summary">
+                Implemented a clinical-grade supervised learning classifier on medical datasets to assist in early cancer diagnosis with high precision and recall benchmarks.
+              </p>
+              <div class="project-highlights">
+                <div class="highlight-item"><i class="fa-solid fa-check"></i> Evaluated via Precision, Recall, and F1-score</div>
+                <div class="highlight-item"><i class="fa-solid fa-check"></i> Advanced feature selection on biomedical data</div>
+              </div>
+              <div class="project-tech-stack">
+                <span>Python</span>
+                <span>Classification</span>
+                <span>Medical Data</span>
+                <span>F1 Optimization</span>
+              </div>
+            </div>
+            <div class="project-footer">
+              <button class="btn btn-outline btn-sm open-modal-btn" data-project="cancer">
+                <i class="fa-solid fa-circle-info"></i> Project Details
+              </button>
+            </div>
+          </div>
+
+          <!-- Project 4: Mobile Phone Price Prediction -->
+          <div class="project-card glass-panel" data-category="ml">
+            <div class="project-card-banner">
+              <div class="project-icon-box">
+                <i class="fa-solid fa-mobile-screen"></i>
+              </div>
+              <span class="project-category-badge">Predictive Analytics</span>
+            </div>
+            <div class="project-body">
+              <h3 class="project-title">Mobile Phone Price Prediction</h3>
+              <p class="project-summary">
+                Created a regression modeling framework to estimate smartphone market pricing based on hardware specifications, camera resolution, battery capacity, and market trends.
+              </p>
+              <div class="project-highlights">
+                <div class="highlight-item"><i class="fa-solid fa-check"></i> Correlation analysis & feature engineering</div>
+                <div class="highlight-item"><i class="fa-solid fa-check"></i> Multiple regression techniques benchmarked</div>
+              </div>
+              <div class="project-tech-stack">
+                <span>Python</span>
+                <span>Regression</span>
+                <span>Pandas</span>
+                <span>Data Preprocessing</span>
+              </div>
+            </div>
+            <div class="project-footer">
+              <button class="btn btn-outline btn-sm open-modal-btn" data-project="mobile">
+                <i class="fa-solid fa-circle-info"></i> Project Details
+              </button>
+            </div>
+          </div>
+
+          <!-- Project 5: Food Delivery Application -->
+          <div class="project-card glass-panel" data-category="web">
+            <div class="project-card-banner">
+              <div class="project-icon-box">
+                <i class="fa-solid fa-utensils"></i>
+              </div>
+              <span class="project-category-badge">Web Application</span>
+            </div>
+            <div class="project-body">
+              <h3 class="project-title">Food Delivery Frontend Application</h3>
+              <p class="project-summary">
+                Built an interactive, modern, and fully responsive food ordering web interface featuring dynamic menu browsing, interactive cart management, and seamless UX workflows.
+              </p>
+              <div class="project-highlights">
+                <div class="highlight-item"><i class="fa-solid fa-check"></i> Seamless responsive layout for all viewports</div>
+                <div class="highlight-item"><i class="fa-solid fa-check"></i> Interactive order placement & menu filters</div>
+              </div>
+              <div class="project-tech-stack">
+                <span>HTML5</span>
+                <span>CSS3</span>
+                <span>JavaScript</span>
+                <span>Responsive UI</span>
+              </div>
+            </div>
+            <div class="project-footer">
+              <button class="btn btn-outline btn-sm open-modal-btn" data-project="food">
+                <i class="fa-solid fa-circle-info"></i> Project Details
+              </button>
+            </div>
+          </div>
+
+        </div>
+      </div>
+    </section>
+
+    <!-- Certifications & Honors Section -->
+    <section class="section" id="certifications">
+      <div class="container">
+        <div class="section-header">
+          <span class="section-tag"><i class="fa-solid fa-certificate"></i> Credentials</span>
+          <h2 class="section-title">Certifications & Global Honors</h2>
+          <p class="section-subtitle">Recognitions of competitive coding prowess, cloud certifications, and technical proficiencies.</p>
+        </div>
+
+        <div class="certifications-grid">
+          
+          <!-- TCS CodeVita -->
+          <div class="cert-card featured-cert glass-panel">
+            <div class="cert-glow"></div>
+            <div class="cert-badge-top">
+              <i class="fa-solid fa-trophy"></i>
+              <span>Global Top 1000</span>
+            </div>
+            <div class="cert-icon-container">
+              <i class="fa-solid fa-code-merge"></i>
+            </div>
+            <div class="cert-body">
+              <div class="cert-year">2025</div>
+              <h3 class="cert-title">TCS CodeVita Season 12</h3>
+              <h4 class="cert-issuer">Tata Consultancy Services</h4>
+              <div class="cert-rank-highlight">
+                <span class="rank-number">Global Rank 749</span>
+                <span class="rank-sub">out of tens of thousands of global participants</span>
+              </div>
+              <p class="cert-desc">
+                Recognized for extraordinary problem-solving capabilities, algorithmic optimization, and competitive coding efficiency in one of the world's largest programming contests.
+              </p>
+            </div>
+          </div>
+
+          <!-- Oracle Certified -->
+          <div class="cert-card glass-panel">
+            <div class="cert-badge-top">
+              <i class="fa-solid fa-shield-check"></i>
+              <span>Official Certification</span>
+            </div>
+            <div class="cert-icon-container">
+              <i class="fa-solid fa-cloud"></i>
+            </div>
+            <div class="cert-body">
+              <div class="cert-year">Jan 2025</div>
+              <h3 class="cert-title">Oracle Certified Foundations Associate</h3>
+              <h4 class="cert-issuer">Oracle University</h4>
+              <p class="cert-desc">
+                Certified in <strong>Oracle Cloud Infrastructure 2024 — AI Foundations Associate</strong>. Validated core concepts in AI, Machine Learning, OCI cloud infrastructure, and enterprise AI workflows.
+              </p>
+            </div>
+          </div>
+
+          <!-- AI Azure Virtual Internship -->
+          <div class="cert-card glass-panel">
+            <div class="cert-badge-top">
+              <i class="fa-solid fa-award"></i>
+              <span>Internship Credential</span>
+            </div>
+            <div class="cert-icon-container">
+              <i class="fa-brands fa-microsoft"></i>
+            </div>
+            <div class="cert-body">
+              <div class="cert-year">May–Jun 2025</div>
+              <h3 class="cert-title">AI Azure Virtual Internship</h3>
+              <h4 class="cert-issuer">Microsoft — Edunet Foundation — AICTE</h4>
+              <p class="cert-desc">
+                Completed 4-week rigorous program covering Azure AI workloads, computer vision, natural language processing, and scalable cognitive cloud deployment.
+              </p>
+            </div>
+          </div>
+
+          <!-- Cisco Academy -->
+          <div class="cert-card glass-panel">
+            <div class="cert-badge-top">
+              <i class="fa-solid fa-graduation-cap"></i>
+              <span>Academy Certification</span>
+            </div>
+            <div class="cert-icon-container">
+              <i class="fa-solid fa-network-wired"></i>
+            </div>
+            <div class="cert-body">
+              <div class="cert-year">Verified</div>
+              <h3 class="cert-title">Cisco Networking Academy</h3>
+              <h4 class="cert-issuer">Cisco Networking Academy</h4>
+              <p class="cert-desc">
+                Successfully achieved certifications in:
+                <br>• <strong>Python Essentials 1</strong>
+                <br>• <strong>Introduction to Cyber Security</strong>
+              </p>
+            </div>
+          </div>
+
+        </div>
+
+        <!-- Co-Curricular Achievement -->
+        <div class="achievement-banner glass-panel">
+          <div class="achieve-icon"><i class="fa-solid fa-star"></i></div>
+          <div class="achieve-content">
+            <h4>Leadership & University Service: Event Coordinator</h4>
+            <p>Served as official Coordinator for <strong>Vignan Mahotsav</strong> conducted by Vignan's Foundation for Science, Technology and Research — overseeing logistics, participant coordination, and event execution.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Education Section -->
+    <section class="section bg-alt" id="education">
+      <div class="container">
+        <div class="section-header">
+          <span class="section-tag"><i class="fa-solid fa-graduation-cap"></i> Academic Background</span>
+          <h2 class="section-title">Education & Qualifications</h2>
+          <p class="section-subtitle">Consistent academic excellence across higher secondary and engineering studies.</p>
+        </div>
+
+        <div class="education-grid">
+          
+          <!-- B.Tech -->
+          <div class="edu-card glass-panel">
+            <div class="edu-year-badge">2022 – Present</div>
+            <div class="edu-icon"><i class="fa-solid fa-building-columns"></i></div>
+            <div class="edu-content">
+              <span class="edu-level">Undergraduate Degree</span>
+              <h3 class="edu-degree">Bachelor of Technology (B.Tech)</h3>
+              <h4 class="edu-field">Computer Science and Engineering</h4>
+              <p class="edu-school">Vignan’s Foundation for Science, Technology and Research, Andhra Pradesh</p>
+              <div class="edu-score">
+                <span class="score-label">Cumulative GPA:</span>
+                <span class="score-value">7.5 / 10.0</span>
+              </div>
+            </div>
+          </div>
+
+          <!-- Intermediate -->
+          <div class="edu-card glass-panel">
+            <div class="edu-year-badge">2020 – 2022</div>
+            <div class="edu-icon"><i class="fa-solid fa-school"></i></div>
+            <div class="edu-content">
+              <span class="edu-level">Higher Secondary (11th & 12th)</span>
+              <h3 class="edu-degree">Intermediate Education (MPC)</h3>
+              <h4 class="edu-field">Mathematics, Physics & Chemistry</h4>
+              <p class="edu-school">NRI Junior College, Andhra Pradesh</p>
+              <div class="edu-score">
+                <span class="score-label">Grade / GPA:</span>
+                <span class="score-value">7.5 / 10.0</span>
+              </div>
+            </div>
+          </div>
+
+          <!-- 10th Standard -->
+          <div class="edu-card glass-panel">
+            <div class="edu-year-badge">2019 – 2020</div>
+            <div class="edu-icon"><i class="fa-solid fa-book-open"></i></div>
+            <div class="edu-content">
+              <span class="edu-level">Secondary School (10th)</span>
+              <h3 class="edu-degree">Secondary School Certificate (SSC)</h3>
+              <h4 class="edu-field">General Academics</h4>
+              <p class="edu-school">Sri Sai Vasavi Vidhya Nikethan High School, Andhra Pradesh</p>
+              <div class="edu-score">
+                <span class="score-label">Outstanding Grade:</span>
+                <span class="score-value highlight-gold">9.5 / 10.0</span>
+              </div>
+            </div>
+          </div>
+
+        </div>
+      </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section class="section" id="contact">
+      <div class="container">
+        <div class="section-header">
+          <span class="section-tag"><i class="fa-solid fa-envelope-open-text"></i> Get In Touch</span>
+          <h2 class="section-title">Let's Connect & Collaborate</h2>
+          <p class="section-subtitle">Interested in discussing software engineering opportunities, internships, or technical collaborations? Feel free to reach out!</p>
+        </div>
+
+        <div class="contact-layout">
+          
+          <!-- Contact Info Cards -->
+          <div class="contact-info-col">
+            
+            <div class="contact-card glass-panel">
+              <div class="contact-card-icon"><i class="fa-solid fa-envelope"></i></div>
+              <div class="contact-card-info">
+                <span class="contact-card-label">Email Address</span>
+                <a href="mailto:madala.neeraja3@gmail.com" class="contact-card-val">madala.neeraja3@gmail.com</a>
+              </div>
+              <button class="copy-btn" data-copy="madala.neeraja3@gmail.com" title="Copy Email">
+                <i class="fa-regular fa-copy"></i>
+              </button>
+            </div>
+
+            <div class="contact-card glass-panel">
+              <div class="contact-card-icon"><i class="fa-solid fa-phone"></i></div>
+              <div class="contact-card-info">
+                <span class="contact-card-label">Phone Number</span>
+                <a href="tel:+919381391624" class="contact-card-val">+91 9381391624</a>
+              </div>
+              <button class="copy-btn" data-copy="+919381391624" title="Copy Phone Number">
+                <i class="fa-regular fa-copy"></i>
+              </button>
+            </div>
+
+            <div class="contact-card glass-panel">
+              <div class="contact-card-icon"><i class="fa-solid fa-location-dot"></i></div>
+              <div class="contact-card-info">
+                <span class="contact-card-label">Location</span>
+                <span class="contact-card-val">Andhra Pradesh, India</span>
+              </div>
+            </div>
+
+            <!-- Resume Download Box -->
+            <div class="resume-download-card glass-panel">
+              <div class="resume-meta">
+                <i class="fa-solid fa-file-pdf pdf-icon"></i>
+                <div>
+                  <h4>Madala Neeraja Resume</h4>
+                  <p>PDF Format • Updated & Verified</p>
+                </div>
+              </div>
+              <div class="resume-card-actions">
+                <a href="neeraja_resume (5).pdf" target="_blank" class="btn btn-sm btn-outline">
+                  <i class="fa-solid fa-arrow-up-right-from-square"></i> Preview
+                </a>
+                <a href="neeraja_resume (5).pdf" download="Madala_Neeraja_Resume.pdf" class="btn btn-sm btn-primary">
+                  <i class="fa-solid fa-download"></i> Download
+                </a>
+              </div>
+            </div>
+
+          </div>
+
+          <!-- Contact Form -->
+          <div class="contact-form-col glass-panel">
+            <h3 class="form-title">Send a Direct Message</h3>
+            <p class="form-subtitle">Fill out the form below and I'll respond as soon as possible.</p>
+            
+            <form id="contact-form" class="contact-form">
+              <div class="form-group">
+                <label for="name">Your Name <span class="required">*</span></label>
+                <div class="input-wrapper">
+                  <i class="fa-regular fa-user input-icon"></i>
+                  <input type="text" id="name" name="name" placeholder="John Doe" required>
+                </div>
+              </div>
+
+              <div class="form-group">
+                <label for="email">Your Email <span class="required">*</span></label>
+                <div class="input-wrapper">
+                  <i class="fa-regular fa-envelope input-icon"></i>
+                  <input type="email" id="email" name="email" placeholder="john@example.com" required>
+                </div>
+              </div>
+
+              <div class="form-group">
+                <label for="subject">Subject</label>
+                <div class="input-wrapper">
+                  <i class="fa-solid fa-tag input-icon"></i>
+                  <input type="text" id="subject" name="subject" placeholder="Opportunity / Project Collaboration">
+                </div>
+              </div>
+
+              <div class="form-group">
+                <label for="message">Message <span class="required">*</span></label>
+                <div class="input-wrapper">
+                  <i class="fa-regular fa-comment-dots input-icon textarea-icon"></i>
+                  <textarea id="message" name="message" rows="4" placeholder="Hello Neeraja, I would love to connect regarding..." required></textarea>
+                </div>
+              </div>
+
+              <button type="submit" class="btn btn-primary btn-block" id="submit-btn">
+                <i class="fa-solid fa-paper-plane"></i>
+                <span>Send Message</span>
+              </button>
+
+              <div id="form-feedback" class="form-feedback hidden"></div>
+            </form>
+          </div>
+
+        </div>
+      </div>
+    </section>
+
+  </main>
+
+  <!-- Project Modal -->
+  <div class="modal-backdrop" id="project-modal">
+    <div class="modal-container glass-panel">
+      <button class="modal-close-btn" id="modal-close" aria-label="Close modal">&times;</button>
+      <div class="modal-content" id="modal-content-target">
+        <!-- Content will be injected dynamically via JS -->
+      </div>
+    </div>
+  </div>
+
+  <!-- Toast Notification Container -->
+  <div id="toast-container" class="toast-container"></div>
+
+  <!-- Footer -->
+  <footer class="footer">
+    <div class="container footer-container">
+      <div class="footer-brand">
+        <span class="logo-box">MN</span>
+        <div>
+          <h3>Madala Neeraja</h3>
+          <p>Computer Science Engineer • AI & Software Development</p>
+        </div>
+      </div>
+
+      <div class="footer-links">
+        <a href="#about">About</a>
+        <a href="#skills">Skills</a>
+        <a href="#experience">Experience</a>
+        <a href="#projects">Projects</a>
+        <a href="#certifications">Certifications</a>
+        <a href="#education">Education</a>
+        <a href="#contact">Contact</a>
+      </div>
+
+      <div class="footer-bottom">
+        <p>© 2026 Madala Neeraja. Built with clean HTML5, CSS3, & Modern JavaScript.</p>
+        <button id="back-to-top" class="back-to-top-btn" title="Back to top">
+          <i class="fa-solid fa-arrow-up"></i>
+        </button>
+      </div>
+    </div>
+  </footer>
+
+  <!-- Main JavaScript File -->
+  <script src="script.js"></script>
+</body>
+</html>
